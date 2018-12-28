@@ -1,5 +1,5 @@
 # Cinebars
-This add-on provides a drawer in the properties pane of Blender's Video Sequence Editor, that lets you add a letterboxing effect ("cinebars") to the project. Also useful for preview cropping in various aspect ratios. Please note - while many people may desire this effect, it is somewhat discouraged in favor of using *actual* video resolutions respective of a target aspect ratio.
+This add-on provides a drawer in the properties pane of Blender's Video Sequence Editor, that lets you add a letterboxing effect ("cinematic bars") to the project. Also useful for preview cropping in various aspect ratios. Please note - while many people may desire this effect, it is somewhat discouraged in favor of using *actual* video resolutions respective of a target aspect ratio.
 
 Unlike the [Letterbox](http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Sequencer/Letterbox) add-on, it does not scale the video at all. Rather, it adds black bars to the sides of the video (top & bottom or left & right) to "crop" the video to a specified aspect ratio.
 
