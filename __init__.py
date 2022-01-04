@@ -4,7 +4,7 @@ bl_info = {
     "name":        "Cinebars",
     "description": "Add fake-letterboxing without changing the resolution of your video.",
     "author":      "ZoomTen",
-    "version":     (0, 0, 3),
+    "version":     (0, 0, 4),
     "blender":     (2, 80, 0),
     "wiki_url":    "https://github.com/ZoomTen/blender-vse-cinebars",
     "tracker_url": "https://github.com/ZoomTen/blender-vse-cinebars/issues",
@@ -75,7 +75,6 @@ def main(context):
         bar.translate_start_x= 50 - (bar.scale_start_x*50)
         bar.blend_type='ALPHA_OVER'
         bpy.ops.sequencer.duplicate_move(
-                                            SEQUENCER_OT_duplicate={"mode":'TRANSLATION'},
                                             TRANSFORM_OT_seq_slide={"value":(2,1)}
                                         )
         otherbar = context.scene.sequence_editor.active_strip
